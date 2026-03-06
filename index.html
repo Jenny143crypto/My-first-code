@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First Website</title>
-</head>
-<body id="bg" style="text-align: center; font-family: sans-serif; padding: 50px; background-color: #f0f8ff;">
-    <h1 style="color: #333;">Welcome to My First Website! 🚀</h1>
-    <p style="font-size: 18px;">Did you know? GitHub Copilot helped me write this code!</p>
-    
-    <button onclick="document.getElementById('bg').style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);" 
-            style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
-        Click to Change Color!
-    </button>
-
-    <p style="margin-top: 30px; color: #666;">Created for the #MyFirstWebsite challenge.</p>
-</body>
-</html>
+<script>
+  function changeColor() {
+    const colors = ['#FF5733', '#33FF57', '#3357FF', '#F333FF'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;
+  }
+</script>
