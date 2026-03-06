@@ -1,1 +1,4 @@
-# My-first-code
+#My first website,fun facts
+This is my submission for the Goodwall #MyFirstWebsite challenge 
+
+I uses GitHub copilot to help generate the code 
